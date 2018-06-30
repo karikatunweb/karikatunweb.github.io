@@ -45,6 +45,12 @@ footer a:hover {
 	padding: 17px 55px;
 	margin-top: 16px;
 }
+.header-button:hover {
+	box-shadow: none;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
 header small {
 	font-size: 12px;
 	display: block;
@@ -154,6 +160,13 @@ footer {
 	margin-bottom: 115px;
 	margin-top: 12px;
 	padding: 10px 40px;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #072b6f;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 .footer-socials {
 	text-align: center;
