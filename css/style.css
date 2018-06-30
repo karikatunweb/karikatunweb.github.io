@@ -13,6 +13,14 @@ header {
 	background-color: #3a7dfd;
 	color: #fff;
 }
+header a:hover {
+	text-decoration: none;
+	color: #072b6f;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #deedfe; 
+}
 .header-pretitle {	
 	margin-top: 102px
 }
@@ -84,7 +92,6 @@ header small {
 	color: #072b6f;
 	font-size: 18px;
 	font-weight: 700;
-	text-transform: uppercase;
 	margin-top: 15px;
 }
 .portfolio-text {
@@ -96,7 +103,6 @@ header small {
 	color: #072b6f;
 	font-size: 14px;
 	font-weight: 400;
-	text-decoration: underline;
 }
 
 /*Оформление подвала*/
@@ -126,6 +132,8 @@ footer {
 }
 .footer-cta-block {
 	text-align: center;
+	text-decoration: none;
+
 }
 .footer-cta {
 	color: #deedfe;
